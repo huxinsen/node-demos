@@ -1,0 +1,15 @@
+{
+  "name": "docx-pdf-sample",
+  "version": "1.0.0",
+  "description": "convert docx to pdf and take pages form it to make a sample",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "xinsen.hu@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "hummus": "^1.0.108",
+    "libreoffice-convert": "^1.0.5"
+  }
+}
