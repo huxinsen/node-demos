@@ -14,7 +14,7 @@ const localDocFileName = global.decodeURIComponent(
     .split('/')
     .pop()
 )
-const localPdfFileName = localDocFileName.replace(/.docx?$/, extend)
+const localPdfFileName = localDocFileName.replace(/\.docx?$/, extend)
 const localPdfFileSampleName = localPdfFileName.replace(
   extend,
   `_sample${extend}`
